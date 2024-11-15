@@ -7,7 +7,6 @@ This is a solution to the [Calculator app challenge on Frontend Mentor](https://
 - [Overview](#overview)
   - [The challenge](#the-challenge)
   - [Screenshot](#screenshot)
-  - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
@@ -31,11 +30,6 @@ Users should be able to:
 ![Designs](design/Default_theme.png)
 ![Designs](design/Theme_2.png)
 ![Designs](design/Theme_3.png)
-
-
-### Links
-
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
 
 ## My process
 
