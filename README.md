@@ -28,14 +28,13 @@ Users should be able to:
 
 ### Screenshot
 
-![Designs](../design/desktop-design-theme-1.jpg)
-![Designs](../design/desktop-design-theme-2.jpg)
-![Designs](../design/desktop-design-theme-3.jpg)
+![Designs](design/desktop-design-theme-1.jpg)
+![Designs](design/desktop-design-theme-2.jpg)
+![Designs](design/desktop-design-theme-3.jpg)
 
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
 - Live Site URL: [Add live site URL here](https://your-live-site-url.com)
 
 ## My process
@@ -65,8 +64,7 @@ I learned that planning how to approach the project before diving to the project
 
 ## Author
 
-- Website - [Ermiyas Birhanu](https://www.your-site.com)
-- Frontend Mentor - [@ERMIYAS-021](https://www.frontendmentor.io/profile/ERMIYAS-021)
+- Frontend Mentor - [@Ermiyato](https://www.frontendmentor.io/profile/Ermiyato) 
 
 ## Acknowledgments
 
