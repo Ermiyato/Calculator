@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+    <title>Frontend Mentor | Calculator app</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="default.css">
+    <link rel="stylesheet" href="" class="theme">
+    <link rel="stylesheet" href="" id="style">
+</head>
+
+<body>
+    <div class="flex-notes">
+        <h3>calc</h3>
+        <div class="flex">
+            <p>THEME</p>
+            <div class="theme-indicator">
+                <div class="buttons">
+                    <button id="defaultTheme">1</button>
+                    <button id="theme-1">2</button>
+                    <button id="theme-2">3</button>
+                </div>
+                <div class="container">
+                    <div id="theme-indicator"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="display">
+        <div previous-operand class="previous-operand">
+        </div>
+        <div current-operand class="current-operand">
+        </div>
+    </div>
+    <div class="grid__container">
+        <!-- calculator buttons goes here -->
+        <button dataNumber type="button">7</button>
+        <button dataNumber type="button">8</button>
+        <button dataNumber type="button">9</button>
+        <button data-delete type="button" class="deleteBtn">DEL</button>
+        <button dataNumber type="button">4</button>
+        <button dataNumber type="button">5</button>
+        <button dataNumber type="button">6</button>
+        <button dataOperation type="button">+</button>
+        <button dataNumber type="button">1</button>
+        <button dataNumber type="button">2</button>
+        <button dataNumber type="button">3</button>
+        <button dataOperation type="button">-</button>
+        <button dataNumber type="button">.</button>
+        <button dataNumber type="button">0</button>
+        <button dataOperation type="button">/</button>
+        <button dataOperation type="button">x</button>
+        <button data-clear type="button" class=" btn reset">RESET</button>
+        <button data-equal type="button" class="btn equal">=</button>
+
+    </div>
+    <div class="attribution">
+        Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+        Coded by <a href="#">Ermiyas Birhanu</a>
+    </div>
+    <script src="calculator.js"></script>
+</body>
+
+</html>

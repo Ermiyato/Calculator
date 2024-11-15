@@ -1,0 +1,104 @@
+:root {
+    --bg-background: hsl(222, 26%, 31%);
+    --switch-bg: hsl(223, 31%, 20%);
+    --display-bg: hsl(224, 36%, 15%);
+    --keypad-bg: hsl(223, 31%, 20%);
+    --keys-bg: hsl(30, 25%, 89%);
+    --key-color: hsl(221, 14%, 31%);
+    --key-active: white;
+    --reset-del-bg: #647299;
+    --reset-del-active: #a2b3e1;
+    --equal-bg: #d13f30;
+    --equal-active: #f96c5b;
+
+}
+
+/* default theme goes here */
+
+body {
+    background-color: var(--bg-background);
+}
+
+.flex-notes {
+    color: var(--key-color);
+}
+
+.flex .container {
+    background-color: var(--switch-bg);
+}
+
+.container>* {
+    background-color: var(--equal-bg);
+}
+
+.buttons>* {
+    /* color: var(--key-color); */
+    color: white;
+}
+
+.display {
+    background-color: var(--display-bg);
+    color: white;
+    box-shadow: 1px 1px 10px rgba(0 0 0 / 0.1);
+}
+
+.display .previous-operand {
+    color: rgb(255 255 255 / 0.4);
+}
+
+.grid__container {
+    background-color: var(--keypad-bg);
+}
+
+.grid__container>* {
+    background-color: var(--keys-bg);
+    color: var(--key-color);
+    box-shadow: 0px 4px 0px #a49c93;
+
+    &:active {
+        background-color: var(--key-active);
+    }
+}
+
+.reset {
+    background-color: var(--reset-del-bg);
+    color: var(--keys-bg);
+    box-shadow: 0px 4px 0px #415071;
+
+    &:active {
+        background-color: var(--reset-del-active);
+    }
+}
+
+.deleteBtn {
+    background-color: var(--reset-del-bg);
+    color: var(--keys-bg);
+    box-shadow: 0px 4px 0px #415071;
+
+    &:active {
+        background-color: var(--reset-del-active);
+    }
+}
+
+.equal {
+    background-color: var(--equal-bg);
+    color: var(--keys-bg);
+    box-shadow: 0px 4px 0px #c51a07;
+
+    &:active {
+        background-color: var(--equal-active);
+    }
+}
+
+.attribution {
+    color: rgba(255 255 255 / 0.7);
+}
+
+.attribution a {
+    font-weight: 500;
+    color: rgba(255 255 255 / 0.9);
+
+    &:hover {
+        color: var(--equal-active);
+    }
+}
