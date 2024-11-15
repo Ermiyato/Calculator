@@ -28,9 +28,9 @@ Users should be able to:
 
 ### Screenshot
 
-![Designs](design/desktop-design-theme-1.jpg)
-![Designs](design/desktop-design-theme-2.jpg)
-![Designs](design/desktop-design-theme-3.jpg)
+![Designs](design/Default_theme.png)
+![Designs](design/Theme_2.png)
+![Designs](design/Theme_3.png)
 
 
 ### Links
